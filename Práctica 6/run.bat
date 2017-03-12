@@ -1,0 +1,6 @@
+@echo off
+cd source
+echo [*] Compilando ...
+javac -cp "./;lib/*" *.java
+echo [*] Ejecutando ...
+java -cp "./;lib/*" mainGUI

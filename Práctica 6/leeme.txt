@@ -1,0 +1,3 @@
+Ejecutar run.bat para compilar y ejecutar la práctica.
+
+-Francisco Gil Amorós-
