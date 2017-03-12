@@ -1,9 +1,12 @@
+/*
+    Simple MÃ¡quina de Turing en C
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #define NStates 20
 
 /*
-    ----Francisco Gil Amorós------
+    ----Francisco Gil AmorÃ³s------
     ----Cell:-----
     state: 1 // q={q0,q1,q2,q3..qn}
     value: 0 // 0,1,B,R,L
@@ -27,7 +30,7 @@ char* fInput();
 void readOutput(char* tape, int state, char value);
 
 int main(){
-    // Tablas de estados (función paridad)
+    // Tablas de estados (funciÃ³n paridad)
     cell table[NStates][2]={ { {0,'B'},{1,'R'} },
                              { {1,'1'},{1,'0'} },
                              { {1,'0'},{2,'R'} },
